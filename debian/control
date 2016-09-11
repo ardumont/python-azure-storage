@@ -1,0 +1,54 @@
+Source: python-azure-storage
+Section: python
+Priority: optional
+Maintainer: Antoine R. Dumont <antoine.romain.dumont@gmail.com>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all,
+               python-setuptools,
+               python-azure-nspkg,
+               python-azure-common,
+               python-cryptography,
+               python-dateutil,
+               python-requests,
+               python3-all,
+               python3-setuptools,
+               python3-azure-nspkg,
+               python3-azure-common,
+               python3-cryptography,
+               python3-dateutil,
+               python3-requests
+Standards-Version: 3.9.6
+X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.0
+Homepage: https://github.com/Azure/azure-storage-python
+
+Package: python-azure-storage
+Architecture: all
+Depends: python-azure-common,
+         python-azure-nspkg,
+         ${misc:Depends},
+         ${python:Depends}
+Description: Microsoft Azure Storage Library for Python
+ This project provides a client library in Python that makes it easy
+ to consume Microsoft Azure Storage services.
+ For documentation please see the Microsoft Azure Python Developer
+ Center and our GitHub.io Reference Page.
+ This free software is provided under the Apache License Version 2.0,
+ January 2004 - http://www.apache.org/licenses/
+ This is the Python 2 version of the package.
+
+Package: python3-azure-storage
+Architecture: all
+Depends: python3-azure-common,
+         python3-azure-nspkg,
+         ${misc:Depends},
+         ${python3:Depends}
+Description: Microsoft Azure Storage Library for Python
+ This project provides a client library in Python that makes it easy
+ to consume Microsoft Azure Storage services.
+ For documentation please see the Microsoft Azure Python Developer
+ Center and our GitHub.io Reference Page.
+ This free software is provided under the Apache License Version 2.0,
+ January 2004 - http://www.apache.org/licenses/
+ This is the Python 3 version of the package.
