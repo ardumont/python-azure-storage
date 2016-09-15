@@ -1,7 +1,8 @@
 Source: python-azure-storage
 Section: python
 Priority: optional
-Maintainer: Antoine R. Dumont <antoine.romain.dumont@gmail.com>
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Antoine R. Dumont <antoine.romain.dumont@gmail.com>
 Build-Depends: debhelper (>= 9),
                dh-python,
                python-all,
