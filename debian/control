@@ -8,14 +8,14 @@ Build-Depends: debhelper (>= 9),
                python-setuptools,
                python-azure-nspkg,
                python-azure-common,
-               python-cryptography,
+               python-cryptography (>= 1.1~),
                python-dateutil,
                python-requests,
                python3-all,
                python3-setuptools,
                python3-azure-nspkg,
                python3-azure-common,
-               python3-cryptography,
+               python3-cryptography (>= 1.1~),
                python3-dateutil,
                python3-requests
 Standards-Version: 3.9.6
@@ -25,8 +25,7 @@ Homepage: https://github.com/Azure/azure-storage-python
 
 Package: python-azure-storage
 Architecture: all
-Depends: python-azure-common,
-         python-azure-nspkg,
+Depends: python-cryptography (>= 1.1~),
          ${misc:Depends},
          ${python:Depends}
 Description: Microsoft Azure Storage Library for Python
@@ -40,8 +39,7 @@ Description: Microsoft Azure Storage Library for Python
 
 Package: python3-azure-storage
 Architecture: all
-Depends: python3-azure-common,
-         python3-azure-nspkg,
+Depends: python3-cryptography (>= 1.1~),
          ${misc:Depends},
          ${python3:Depends}
 Description: Microsoft Azure Storage Library for Python
