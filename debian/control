@@ -30,12 +30,9 @@ Depends: python-cryptography (>= 1.1~),
          ${misc:Depends},
          ${python:Depends}
 Description: Microsoft Azure Storage Library for Python
- This project provides a client library in Python that makes it easy
- to consume Microsoft Azure Storage services.
- For documentation please see the Microsoft Azure Python Developer
- Center and our GitHub.io Reference Page.
- This free software is provided under the Apache License Version 2.0,
- January 2004 - http://www.apache.org/licenses/
+ This project provides a python client library that permits to consume
+ Microsoft Azure Storage services (Blob, Queue, Table, Files).
+ .
  This is the Python 2 version of the package.
 
 Package: python3-azure-storage
@@ -44,10 +41,7 @@ Depends: python3-cryptography (>= 1.1~),
          ${misc:Depends},
          ${python3:Depends}
 Description: Microsoft Azure Storage Library for Python
- This project provides a client library in Python that makes it easy
- to consume Microsoft Azure Storage services.
- For documentation please see the Microsoft Azure Python Developer
- Center and our GitHub.io Reference Page.
- This free software is provided under the Apache License Version 2.0,
- January 2004 - http://www.apache.org/licenses/
+ This project provides a python client library that permits to consume
+ Microsoft Azure Storage services (Blob, Queue, Table, Files).
+ .
  This is the Python 3 version of the package.
