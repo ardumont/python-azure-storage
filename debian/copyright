@@ -5,13 +5,13 @@ Source: https://github.com/Azure/azure-storage-python
 Debianized-By: Antoine R. Dumont (@ardumont) <antoine.romain.dumont@gmail.com>
 Debianized-Date: Sun Sep 11 12:25:48 CEST 2016
 
-Files: debian/*
-Copyright: 2016, Antoine R. Dumont (@ardumont) <antoine.romain.dumont@gmail.com>
-License: GPL-2+
-
 Files: *
 Copyright: 2015-2016, Microsoft
 License: Apache-2.0
+
+Files: debian/*
+Copyright: 2016, Antoine R. Dumont (@ardumont) <antoine.romain.dumont@gmail.com>
+License: GPL-2+
 
 License: Apache-2.0
  On Debian systems the full text of the Apache License can be found
