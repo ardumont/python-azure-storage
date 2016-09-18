@@ -2,11 +2,11 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: azure-storage-python
 Upstream-Contact: ptvshelp@microsoft.com
 Source: https://github.com/Azure/azure-storage-python
-Debianized-By: Antoine R. Dumont <antoine.romain.dumont@gmail.com>
+Debianized-By: Antoine R. Dumont (@ardumont) <antoine.romain.dumont@gmail.com>
 Debianized-Date: Sun Sep 11 12:25:48 CEST 2016
 
 Files: debian/*
-Copyright: 2016, Antoine R. Dumont <antoine.romain.dumont@gmail.com>
+Copyright: 2016, Antoine R. Dumont (@ardumont) <antoine.romain.dumont@gmail.com>
 License: GPL-2+
 
 Files: *
