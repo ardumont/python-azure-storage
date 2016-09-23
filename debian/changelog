@@ -1,4 +1,4 @@
-python-azure-storage (0.33-1) UNRELEASED; urgency=medium
+python-azure-storage (0.33-1) unstable; urgency=medium
 
   * Initial release. (Closes: #838135:)
 
