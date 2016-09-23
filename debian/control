@@ -29,9 +29,9 @@ Architecture: all
 Depends: python-cryptography (>= 1.1~),
          ${misc:Depends},
          ${python:Depends}
-Description: Microsoft Azure Storage Library for Python
- This project provides a python client library that permits to consume
- Microsoft Azure Storage services (Blob, Queue, Table, Files).
+Description: Microsoft Azure Storage Library for Python 2.x
+ This Python module provides an API for consuming Microsoft Azure Storage
+ services including Blob, Queue, Table and Files.
  .
  This is the Python 2 version of the package.
 
@@ -40,8 +40,8 @@ Architecture: all
 Depends: python3-cryptography (>= 1.1~),
          ${misc:Depends},
          ${python3:Depends}
-Description: Microsoft Azure Storage Library for Python
- This project provides a python client library that permits to consume
- Microsoft Azure Storage services (Blob, Queue, Table, Files).
+Description: Microsoft Azure Storage Library for Python 3.x
+ This Python module provides an API for consuming Microsoft Azure Storage
+ services including Blob, Queue, Table and Files.
  .
  This is the Python 3 version of the package.
