@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 
 #-------------------------------------------------------------------------
 # Copyright (c) Microsoft.  All rights reserved.
@@ -35,7 +35,7 @@ except ImportError:
 
 setup(
     name='azure-storage',
-    version='0.33.0',
+    version='0.34.0',
     description='Microsoft Azure Storage Client Library for Python',
     long_description=open('README.rst', 'r').read(),
     license='Apache License 2.0',
